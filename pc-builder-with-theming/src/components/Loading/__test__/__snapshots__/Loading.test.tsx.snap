@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [Loading] component Component [Loading] should render children if isFetching props is false 1`] = `
+<h1>
+  Children
+</h1>
+`;
+
+exports[`Test [Loading] component Component [Loading] should render loading if isFetching props is true 1`] = `
+<div
+  className="spinner-border align-self-center m-auto"
+  role="status"
+/>
+`;

@@ -1,0 +1,21 @@
+.theme-sidebar {
+
+  .list-themes-group {
+    .list-group-item {
+      &:first-child {
+        &:hover {
+          background-color: $gray-500;
+        }
+      }
+
+      &.active:first-child {
+        background-color: $gray-500;
+      }
+
+      &:hover,
+      &.active {
+        background: $gray-100;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.pc-part {
+  grid-template-columns: 100px auto auto;
+  border-radius: 50rem 10rem 10rem 50rem;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.pc-part-name {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.pc-part-thumbnail {
+width: 100%;
+height: 100%;
+}
+
+.thumbnail-area {
+  width: 120px;
+height: 120px;
+align-self: center;
+}

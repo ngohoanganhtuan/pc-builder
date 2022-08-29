@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [ErrorBoundary] component Fallback component [ErrorBoundaryUI] should render correctly 1`] = `
+<div
+  className="modal d-block"
+  role="dialog"
+>
+  <div
+    className="modal-dialog shadow"
+    role="document"
+  >
+    <div
+      className="modal-content border-0"
+    >
+      <div
+        className="modal-header bg-danger text-white"
+      >
+        <h5
+          className="modal-title"
+        >
+          Error 
+          <i
+            className="bi bi-emoji-frown"
+          />
+        </h5>
+      </div>
+      <div
+        className="modal-body"
+      >
+        <details>
+          <summary>
+            <span
+              className="text-danger"
+            >
+              Error
+            </span>
+             : 
+            Something wrong
+          </summary>
+          <p
+            className="p-3"
+          >
+            <small>
+              Error details...
+            </small>
+          </p>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+`;

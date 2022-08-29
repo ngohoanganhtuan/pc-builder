@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [App] component Component [App] should render when dark theme is false 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="d-flex flex-column min-vh-100 justify-content-between"
+  >
+    <div
+      className="top-content d-flex flex-column flex-grow-1 flex-shrink-1 flex-basis-0"
+    >
+      <div
+        className="modal d-block"
+        role="dialog"
+      >
+        <div
+          className="modal-dialog shadow"
+          role="document"
+        >
+          <div
+            className="modal-content border-0"
+          >
+            <div
+              className="modal-header bg-danger text-white"
+            >
+              <h5
+                className="modal-title"
+              >
+                Error 
+                <i
+                  className="bi bi-emoji-frown"
+                />
+              </h5>
+            </div>
+            <div
+              className="modal-body"
+            >
+              <details>
+                <summary>
+                  <span
+                    className="text-danger"
+                  >
+                    TypeError
+                  </span>
+                   : 
+                  Cannot read properties of undefined (reading 'pathname')
+                </summary>
+                <p
+                  className="p-3"
+                >
+                  <small>
+                    TypeError: Cannot read properties of undefined (reading 'pathname')
+    at pathname (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\packages\\react-router\\lib\\components.tsx:197:5)
+    at renderWithHooks (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:6016:18)
+    at mountIndeterminateComponent (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:8744:13)
+    at beginWork (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:9966:16)
+    at performUnitOfWork (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13800:12)
+    at workLoopSync (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13728:5)
+    at renderRootSync (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13691:7)
+    at performSyncWorkOnRoot (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13404:18)
+    at C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2537:26
+    at unstable_runWithPriority (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\scheduler@0.20.2\\node_modules\\scheduler\\cjs\\scheduler.development.js:468:12)
+    at runWithPriority (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2486:10)
+    at flushSyncCallbackQueueImpl (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2532:9)
+    at flushSyncCallbackQueue (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2519:3)
+    at scheduleUpdateOnFiber (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13004:9)
+    at updateContainer (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:16454:3)
+    at Object.create (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:17149:3)
+    at Object.&lt;anonymous&gt; (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\src\\__test__\\App.test.tsx:24:32)
+    at Promise.then.completed (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\utils.js:259:10)
+    at _callCircusTest (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:209:3)
+    at _runTestsForDescribeBlock (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:97:9)
+    at _runTestsForDescribeBlock (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:91:9)
+    at run (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:31:3)
+    at runAndTransformResultsToJestFormat (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:135:21)
+    at jestAdapter (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:92:19)
+    at runTestInternal (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-runner@28.1.1\\node_modules\\jest-runner\\build\\runTest.js:411:16)
+    at runTest (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-runner@28.1.1\\node_modules\\jest-runner\\build\\runTest.js:499:34)
+    at Object.worker (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-runner@28.1.1\\node_modules\\jest-runner\\build\\testWorker.js:133:12)
+                  </small>
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bottom-content"
+    >
+      <footer
+        className="shadow-sm border bg-white footer"
+      >
+        <div
+          className="container p-3 bg-indigo-500"
+        >
+          <h2
+            className="fs-4 title"
+          >
+            PC Builder
+          </h2>
+          <p
+            className="description"
+          >
+            PC Builder and the PC Builder logo are registered patents and trademarks of PC Builder. All other names, brands, products or services are trademarks or registered trademarks of their respective owners.
+          </p>
+          <div
+            className="icon-list list-group"
+          >
+            <div
+              className="d-flex flex-row gap-2"
+            >
+              <i
+                className="bi bi-envelope icon"
+              />
+              <a
+                className="text-decoration-none text-dark link"
+                href="mailto:none"
+              >
+                pcbuilder@gmail.com
+              </a>
+            </div>
+            <div
+              className="d-flex flex-row gap-2"
+            >
+              <i
+                className="bi bi-telephone icon"
+              />
+              <a
+                className="text-decoration-none text-dark link"
+                href="tel:none"
+              >
+                0236-0000-000
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test [App] component Component [App] should render when dark theme is true 1`] = `
+<div
+  className="App dark"
+>
+  <div
+    className="d-flex flex-column min-vh-100 justify-content-between"
+  >
+    <div
+      className="top-content d-flex flex-column flex-grow-1 flex-shrink-1 flex-basis-0"
+    >
+      <div
+        className="modal d-block"
+        role="dialog"
+      >
+        <div
+          className="modal-dialog shadow"
+          role="document"
+        >
+          <div
+            className="modal-content border-0"
+          >
+            <div
+              className="modal-header bg-danger text-white"
+            >
+              <h5
+                className="modal-title"
+              >
+                Error 
+                <i
+                  className="bi bi-emoji-frown"
+                />
+              </h5>
+            </div>
+            <div
+              className="modal-body"
+            >
+              <details>
+                <summary>
+                  <span
+                    className="text-danger"
+                  >
+                    TypeError
+                  </span>
+                   : 
+                  Cannot read properties of undefined (reading 'pathname')
+                </summary>
+                <p
+                  className="p-3"
+                >
+                  <small>
+                    TypeError: Cannot read properties of undefined (reading 'pathname')
+    at pathname (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\packages\\react-router\\lib\\components.tsx:197:5)
+    at renderWithHooks (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:6016:18)
+    at mountIndeterminateComponent (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:8744:13)
+    at beginWork (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:9966:16)
+    at performUnitOfWork (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13800:12)
+    at workLoopSync (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13728:5)
+    at renderRootSync (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13691:7)
+    at performSyncWorkOnRoot (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13404:18)
+    at C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2537:26
+    at unstable_runWithPriority (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\scheduler@0.20.2\\node_modules\\scheduler\\cjs\\scheduler.development.js:468:12)
+    at runWithPriority (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2486:10)
+    at flushSyncCallbackQueueImpl (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2532:9)
+    at flushSyncCallbackQueue (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:2519:3)
+    at scheduleUpdateOnFiber (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:13004:9)
+    at updateContainer (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:16454:3)
+    at Object.create (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\react-test-renderer@17.0.2_react@17.0.2\\node_modules\\react-test-renderer\\cjs\\react-test-renderer.development.js:17149:3)
+    at Object.&lt;anonymous&gt; (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\src\\__test__\\App.test.tsx:18:32)
+    at Promise.then.completed (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\utils.js:259:10)
+    at _callCircusTest (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:209:3)
+    at _runTestsForDescribeBlock (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:97:9)
+    at _runTestsForDescribeBlock (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:91:9)
+    at run (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\run.js:31:3)
+    at runAndTransformResultsToJestFormat (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:135:21)
+    at jestAdapter (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-circus@28.1.1\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:92:19)
+    at runTestInternal (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-runner@28.1.1\\node_modules\\jest-runner\\build\\runTest.js:411:16)
+    at runTest (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-runner@28.1.1\\node_modules\\jest-runner\\build\\runTest.js:499:34)
+    at Object.worker (C:\\Users\\ASNET\\Desktop\\Training\\react-training\\practice-two\\node_modules\\.pnpm\\jest-runner@28.1.1\\node_modules\\jest-runner\\build\\testWorker.js:133:12)
+                  </small>
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="bottom-content"
+    >
+      <footer
+        className="shadow-sm border bg-white footer"
+      >
+        <div
+          className="container p-3 bg-indigo-500"
+        >
+          <h2
+            className="fs-4 title"
+          >
+            PC Builder
+          </h2>
+          <p
+            className="description"
+          >
+            PC Builder and the PC Builder logo are registered patents and trademarks of PC Builder. All other names, brands, products or services are trademarks or registered trademarks of their respective owners.
+          </p>
+          <div
+            className="icon-list list-group"
+          >
+            <div
+              className="d-flex flex-row gap-2"
+            >
+              <i
+                className="bi bi-envelope icon"
+              />
+              <a
+                className="text-decoration-none text-dark link"
+                href="mailto:none"
+              >
+                pcbuilder@gmail.com
+              </a>
+            </div>
+            <div
+              className="d-flex flex-row gap-2"
+            >
+              <i
+                className="bi bi-telephone icon"
+              />
+              <a
+                className="text-decoration-none text-dark link"
+                href="tel:none"
+              >
+                0236-0000-000
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

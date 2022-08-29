@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [SpecBuilderPage] page Page [SpecBuilderPage] should render correctly 1`] = `
+<div
+  className="spec-builder-page container py-5"
+>
+  <div
+    className="d-flex flex-row justify-content-between align-items-center mt-3"
+  >
+    <div
+      className="d-flex gap-2"
+    >
+      <button
+        className="btn btn-info border-0 shadow"
+        onClick={[Function]}
+      >
+        Reset Spec
+      </button>
+    </div>
+    <p
+      className="fs-4 m-0 total-price"
+    >
+      Total : 
+      15.200.000 ₫
+    </p>
+  </div>
+  <div
+    className="d-flex flex-column gap-4 mt-5"
+  >
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Mainboard
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className=""
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Processor (CPU)
+      </h2>
+      <div
+        className="shadow d-grid pc-part"
+      >
+        <div
+          className="p-1"
+        >
+          <img
+            className="border rounded-circle pc-part-thumbnail"
+            data-testid="pc-part-thumbnail"
+            height="100%"
+            src="https://cdn.techzones.vn/Data/Sites/1/Product/35710/techzones-amd-ryzen-7-5600x-6c12t-32mb-cache-37ghz-up-to-46ghz.jpg"
+            width="100%"
+          />
+        </div>
+        <div
+          className="p-3 d-flex flex-column align-items-start justify-content-between"
+        >
+          <a
+            className="name card-title fs-6 text-dark fw-bold"
+            href="/detail/2"
+            onClick={[Function]}
+          >
+            AMD Ryzen 7 5600X - 6C/12T 32MB Cache 3.7GHz Up to 4.6GHz
+          </a>
+          <div
+            className="quantity-input d-flex input-group-sm shadow rounded-pill overflow-hidden quantity-input-sm"
+          >
+            <button
+              className="btn bg-white shadow-none"
+              data-testid="decrease-quantity-button"
+              onClick={[Function]}
+            >
+              <i
+                className="bi bi-dash"
+              />
+            </button>
+            <div
+              className="number bg-white d-flex align-items-center w-100 justify-content-center"
+            >
+              2
+            </div>
+            <button
+              className="btn bg-white shadow-none"
+              data-testid="increase-quantity-button"
+              onClick={[Function]}
+            >
+              <i
+                className="bi bi-plus"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="p-3 d-flex flex-column align-items-end justify-content-between"
+        >
+          <p
+            className="fs-6 price"
+          >
+            7.600.000 ₫
+          </p>
+          <button
+            className="btn btn-sm btn-danger shadow"
+            data-testid="pc-part-remove-button"
+            onClick={[Function]}
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Graphic Card (GPU)
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Memory (RAM)
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Solid State Drive (SSD)
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Hard Disk Drive (HDD)
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Case
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Power Suply (PSU)
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Mouse
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Keyboard
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Monitor
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <h2
+        className="pc-part-section-name fs-5"
+      >
+        Headset
+      </h2>
+      <button
+        className="btn btn-primary btn-sm border-0 shadow"
+        onClick={[Function]}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+  </div>
+  <div
+    className="d-flex justify-content-end mt-5"
+  >
+    <button
+      className="btn btn-success"
+      data-testid="add-to-cart-button"
+      onClick={[Function]}
+    >
+      Add to cart
+    </button>
+  </div>
+</div>
+`;

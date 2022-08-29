@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [Header] component Component [Header] should render correctly 1`] = `
+<header
+  className="header shadow bg-white"
+>
+  <div
+    className="px-3 py-2 text-dark"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+      >
+        <h1
+          className="logo fs-4 d-flex align-items-center my-2 my-lg-0 me-lg-auto text-dark text-decoration-none gap-1"
+        >
+          <span
+            className="badge bg-secondary text-white p-1 rounded"
+          >
+            PC
+          </span>
+           Builder
+        </h1>
+        <div
+          className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small position-relative d-flex gap-2"
+        >
+          <div
+            className="form-check form-switch theme-switch px-0 align-self-center"
+          >
+            <input
+              checked={true}
+              className="form-check-input theme-switch-input"
+              id="dark-theme-switcher"
+              onChange={[MockFunction]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label fw-bold bg-white px-1 rounded"
+              htmlFor="dark-theme-switcher"
+            >
+              <img />
+            </label>
+          </div>
+          <a
+            className="nav-link text-dark d-flex flex-row align-items-center text-decoration-none gap-1 border rounded d-flex flex-row p-2 bg-white"
+            href="/builder"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-tools d-block mx-auto"
+            />
+            <span>
+              Builder
+            </span>
+          </a>
+          <a
+            className="nav-link text-dark d-flex flex-row align-items-center text-decoration-none gap-1 border rounded d-flex flex-row p-2 bg-white"
+            href="/cart"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-cart d-block mx-auto"
+            />
+            <span>
+              Cart
+            </span>
+            0
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;

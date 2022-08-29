@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [CartPage] page Page [CartPage] should render correctly when data is fetched 1`] = `
+<div
+  className="cart-page container py-5 d-flex flex-column justify-content-between flex-grow-1 flex-shrink-1 flex-basis-0"
+>
+  <div
+    className="cart-items d-flex flex-column h-100 gap-4"
+  >
+    <div
+      className="shadow d-grid pc-part"
+    >
+      <div
+        className="p-1"
+      >
+        <img
+          className="border rounded-circle pc-part-thumbnail"
+          data-testid="pc-part-thumbnail"
+          height="100%"
+          src="https://cdn.techzones.vn/Data/Sites/1/Product/35710/techzones-amd-ryzen-7-5600x-6c12t-32mb-cache-37ghz-up-to-46ghz.jpg"
+          width="100%"
+        />
+      </div>
+      <div
+        className="p-3 d-flex flex-column align-items-start justify-content-between"
+      >
+        <a
+          className="name card-title fs-6 text-dark fw-bold"
+          href="/detail/1"
+          onClick={[Function]}
+        >
+          AMD Ryzen 7 5600X - 6C/12T 32MB Cache 3.7GHz Up to 4.6GHz
+        </a>
+        <div
+          className="quantity-input d-flex input-group-sm shadow rounded-pill overflow-hidden quantity-input-sm"
+        >
+          <button
+            className="btn bg-white shadow-none"
+            data-testid="decrease-quantity-button"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-dash"
+            />
+          </button>
+          <div
+            className="number bg-white d-flex align-items-center w-100 justify-content-center"
+          >
+            1
+          </div>
+          <button
+            className="btn bg-white shadow-none"
+            data-testid="increase-quantity-button"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-plus"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        className="p-3 d-flex flex-column align-items-end justify-content-between"
+      >
+        <p
+          className="fs-6 price"
+        >
+          7.600.000 ₫
+        </p>
+        <button
+          className="btn btn-sm btn-danger shadow"
+          data-testid="pc-part-remove-button"
+          onClick={[Function]}
+        >
+          Remove
+        </button>
+      </div>
+    </div>
+    <div
+      className="shadow d-grid pc-part"
+    >
+      <div
+        className="p-1"
+      >
+        <img
+          className="border rounded-circle pc-part-thumbnail"
+          data-testid="pc-part-thumbnail"
+          height="100%"
+          src="https://cdn.techzones.vn/Data/Sites/1/Product/35709/techzones-amd-ryzen-5-5500-6c12t-16mb-cache-36-ghz-up-to-42-ghz.jpg"
+          width="100%"
+        />
+      </div>
+      <div
+        className="p-3 d-flex flex-column align-items-start justify-content-between"
+      >
+        <a
+          className="name card-title fs-6 text-dark fw-bold"
+          href="/detail/2"
+          onClick={[Function]}
+        >
+          AMD Ryzen 5 5600 - 6C/12T 32MB Cache 3.5 GHz Up to 4.4 GHz
+        </a>
+        <div
+          className="quantity-input d-flex input-group-sm shadow rounded-pill overflow-hidden quantity-input-sm"
+        >
+          <button
+            className="btn bg-white shadow-none"
+            data-testid="decrease-quantity-button"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-dash"
+            />
+          </button>
+          <div
+            className="number bg-white d-flex align-items-center w-100 justify-content-center"
+          >
+            2
+          </div>
+          <button
+            className="btn bg-white shadow-none"
+            data-testid="increase-quantity-button"
+            onClick={[Function]}
+          >
+            <i
+              className="bi bi-plus"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        className="p-3 d-flex flex-column align-items-end justify-content-between"
+      >
+        <p
+          className="fs-6 price"
+        >
+          5.100.000 ₫
+        </p>
+        <button
+          className="btn btn-sm btn-danger shadow"
+          data-testid="pc-part-remove-button"
+          onClick={[Function]}
+        >
+          Remove
+        </button>
+      </div>
+    </div>
+  </div>
+  <p
+    className="fs-4 m-0 align-self-end total-price"
+  >
+    Total : 
+    17.800.000 ₫
+  </p>
+</div>
+`;
+
+exports[`Test [CartPage] page Page [CartPage] should render correctly when data is fetched but empty 1`] = `
+<div
+  className="cart-page container py-5 d-flex flex-column justify-content-between flex-grow-1 flex-shrink-1 flex-basis-0"
+>
+  <div
+    className="cart-items d-flex flex-column h-100 gap-4"
+  >
+    <h2
+      className="m-auto"
+    >
+      You have nothing in your cart.
+    </h2>
+  </div>
+  <p
+    className="fs-4 m-0 align-self-end total-price"
+  >
+    Total : 
+    0 ₫
+  </p>
+</div>
+`;
+
+exports[`Test [CartPage] page Page [CartPage] should render correctly when data is fetching 1`] = `
+<div
+  className="spinner-border align-self-center m-auto"
+  role="status"
+/>
+`;

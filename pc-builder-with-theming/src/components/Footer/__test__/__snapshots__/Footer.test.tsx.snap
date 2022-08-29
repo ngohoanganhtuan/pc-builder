@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [Footer] component Component [Footer] render correctly 1`] = `
+<footer
+  className="shadow-sm border bg-white footer"
+>
+  <div
+    className="container p-3 bg-indigo-500"
+  >
+    <h2
+      className="fs-4 title"
+    >
+      PC Builder
+    </h2>
+    <p
+      className="description"
+    >
+      PC Builder and the PC Builder logo are registered patents and trademarks of PC Builder. All other names, brands, products or services are trademarks or registered trademarks of their respective owners.
+    </p>
+    <div
+      className="icon-list list-group"
+    >
+      <div
+        className="d-flex flex-row gap-2"
+      >
+        <i
+          className="bi bi-envelope icon"
+        />
+        <a
+          className="text-decoration-none text-dark link"
+          href="mailto:none"
+        >
+          pcbuilder@gmail.com
+        </a>
+      </div>
+      <div
+        className="d-flex flex-row gap-2"
+      >
+        <i
+          className="bi bi-telephone icon"
+        />
+        <a
+          className="text-decoration-none text-dark link"
+          href="tel:none"
+        >
+          0236-0000-000
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [Checkbox] component Component [Checkbox] matches DOM Snapshot 1`] = `
+<div
+  className="form-check"
+>
+  <input
+    checked={true}
+    className="form-check-input"
+    id="checkbox-1"
+    name="checkbox-1"
+    onChange={[MockFunction]}
+    type="checkbox"
+    value="checkbox-1"
+  />
+  <label
+    className="form-check-label brand-checkbox-label"
+    htmlFor="checkbox-1"
+  >
+    Checkbox label
+  </label>
+</div>
+`;

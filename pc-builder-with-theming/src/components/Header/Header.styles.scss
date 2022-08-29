@@ -1,0 +1,22 @@
+@mixin navIconHoverAnimation {
+  transition: 1s;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.3);
+  }
+}
+
+.navbar {
+
+  .navbar-brand {
+
+    @include navIconHoverAnimation;
+  }
+
+  .bi {
+    display: inline-block;
+
+    @include navIconHoverAnimation;
+  }
+}

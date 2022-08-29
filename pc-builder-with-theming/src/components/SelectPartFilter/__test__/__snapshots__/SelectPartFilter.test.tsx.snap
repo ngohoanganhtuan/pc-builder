@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [SelectPartFilter] component Component [SelectPartFilter] should render correctly 1`] = `
+<div
+  className="d-flex flex-column filter"
+>
+  <div
+    className="mb-3"
+  >
+    <p
+      className="form-label filter-brand"
+    >
+      Brand
+    </p>
+    <div
+      className="d-flex flex-column flex-wrap"
+    >
+      <div
+        className="form-check"
+      >
+        <input
+          checked={true}
+          className="form-check-input"
+          id="brand-checkbox-0"
+          name="brand-checkbox-0"
+          onChange={[MockFunction]}
+          type="checkbox"
+          value="Adata"
+        />
+        <label
+          className="form-check-label brand-checkbox-label"
+          htmlFor="brand-checkbox-0"
+        >
+          Adata
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-3"
+  >
+    <p
+      className="form-label filter-price"
+    >
+      Price range
+    </p>
+    <div
+      className="range-slider d-flex flex-row justify-content-between align-items-center gap-2"
+    >
+      <input
+        className="form-control"
+        data-testid="min-range-input"
+        onChange={[MockFunction]}
+        placeholder="Minimum"
+        value={1000}
+      />
+      ~
+      <input
+        className="form-control"
+        data-testid="max-range-input"
+        onChange={[MockFunction]}
+        placeholder="Maximum"
+        value={5000}
+      />
+    </div>
+  </div>
+</div>
+`;

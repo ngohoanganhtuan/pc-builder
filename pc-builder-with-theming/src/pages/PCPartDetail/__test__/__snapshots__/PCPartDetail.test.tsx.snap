@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [PCPartDetail] page Page [PCPartDetail] should render correctly when data is fetched 1`] = `
+<div
+  className="pc-part-detail-page container py-5 d-flex flex-column gap-5"
+>
+  <div
+    className="row g-4"
+  >
+    <div
+      className="col-12 col-md-5"
+    >
+      <img
+        className="border rounded pc-part-thumbnail"
+        data-testid="pc-part-thumbnail"
+        height="100%"
+        width="100%"
+      />
+    </div>
+    <div
+      className="col-12 col-md-7"
+    >
+      <h2
+        className="name"
+      />
+      <div
+        className="d-flex flex-row justify-content-start gap-3"
+      >
+        <p
+          className="brand text-muted d-flex gap-1 fs-5"
+        >
+          Brand:
+          <span
+            className="text-dark fw-bold"
+          />
+        </p>
+        <p
+          className="product-id text-muted d-flex gap-1 fs-5"
+        >
+          Product id:
+          <span
+            className="text-dark fw-bold"
+          />
+        </p>
+      </div>
+      <p
+        className="price text-danger fw-bold fs-3"
+      >
+        NaN ₫
+      </p>
+      <button
+        className="btn btn-lg btn-success"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Add this product to my cart
+      </button>
+    </div>
+  </div>
+  <table
+    className="table table-striped table-bordered border rounded"
+  >
+    <thead
+      className="table-light fw-bold fs-3 pl-3"
+    >
+      <tr>
+        <td
+          colSpan={2}
+        >
+          Specifications
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>
+          Name
+        </th>
+        <td />
+      </tr>
+      <tr>
+        <th>
+          Hardware type
+        </th>
+        <td />
+      </tr>
+      <tr>
+        <th>
+          Hardware brand
+        </th>
+        <td />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Test [PCPartDetail] page Page [PCPartDetail] should render corrrectly when button is clicked 1`] = `
+<div
+  className="pc-part-detail-page container py-5 d-flex flex-column gap-5"
+>
+  <div
+    className="row g-4"
+  >
+    <div
+      className="col-12 col-md-5"
+    >
+      <img
+        className="border rounded pc-part-thumbnail"
+        data-testid="pc-part-thumbnail"
+        height="100%"
+        width="100%"
+      />
+    </div>
+    <div
+      className="col-12 col-md-7"
+    >
+      <h2
+        className="name"
+      />
+      <div
+        className="d-flex flex-row justify-content-start gap-3"
+      >
+        <p
+          className="brand text-muted d-flex gap-1 fs-5"
+        >
+          Brand:
+          <span
+            className="text-dark fw-bold"
+          />
+        </p>
+        <p
+          className="product-id text-muted d-flex gap-1 fs-5"
+        >
+          Product id:
+          <span
+            className="text-dark fw-bold"
+          />
+        </p>
+      </div>
+      <p
+        className="price text-danger fw-bold fs-3"
+      >
+        NaN ₫
+      </p>
+      <button
+        className="btn btn-lg btn-outline-success"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Product added to your cart
+      </button>
+    </div>
+  </div>
+  <table
+    className="table table-striped table-bordered border rounded"
+  >
+    <thead
+      className="table-light fw-bold fs-3 pl-3"
+    >
+      <tr>
+        <td
+          colSpan={2}
+        >
+          Specifications
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>
+          Name
+        </th>
+        <td />
+      </tr>
+      <tr>
+        <th>
+          Hardware type
+        </th>
+        <td />
+      </tr>
+      <tr>
+        <th>
+          Hardware brand
+        </th>
+        <td />
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Test [PCPartDetail] page Page [PCPartDetail] should render loading spinner when data is fetching 1`] = `
+<div
+  className="spinner-border align-self-center m-auto"
+  role="status"
+/>
+`;

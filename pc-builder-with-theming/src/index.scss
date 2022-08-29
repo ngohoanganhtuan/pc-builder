@@ -1,0 +1,172 @@
+// Configuration
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+
+/****** Colors Customization ******/
+
+$white-o-1: rgba(255, 255, 255, 0.1) !default;
+$white-o-2: rgba(255, 255, 255, 0.2) !default;
+$white-o-3: rgba(255, 255, 255, 0.3) !default;
+$white-o-4: rgba(255, 255, 255, 0.4) !default;
+$white-o-5: rgba(255, 255, 255, 0.5) !default;
+
+$black-o-1: rgba(0, 0, 0, 0.1) !default;
+$black-o-2: rgba(0, 0, 0, 0.2) !default;
+$black-o-3: rgba(0, 0, 0, 0.3) !default;
+$black-o-4: rgba(0, 0, 0, 0.4) !default;
+$black-o-5: rgba(0, 0, 0, 0.5) !default;
+
+$blue-o-1: rgba(13, 109, 252, 0.1) !default;
+$blue-o-2: rgba(13, 109, 252, 0.2) !default;
+$blue-o-3: rgba(13, 109, 252, 0.3) !default;
+$blue-o-4: rgba(13, 109, 252, 0.4) !default;
+$blue-o-5: rgba(13, 109, 252, 0.5) !default;
+
+$green-o-1: rgba(26, 135, 84, 0.1) !default;
+$green-o-2: rgba(26, 135, 84, 0.2) !default;
+$green-o-3: rgba(26, 135, 84, 0.3) !default;
+$green-o-4: rgba(26, 135, 84, 0.4) !default;
+$green-o-5: rgba(26, 135, 84, 0.5) !default;
+
+$cyan-o-1: rgba(13, 202, 240, 0.1) !default;
+$cyan-o-2: rgba(13, 202, 240, 0.2) !default;
+$cyan-o-3: rgba(13, 202, 240, 0.3) !default;
+$cyan-o-4: rgba(13, 202, 240, 0.4) !default;
+$cyan-o-5: rgba(13, 202, 240, 0.5) !default;
+
+$custom-colors: (
+  "white-o-1": $white-o-1,
+  "white-o-2": $white-o-1,
+  "white-o-3": $white-o-3,
+  "white-o-4": $white-o-4,
+  "white-o-5": $white-o-5,
+
+  "dark-o-1": $black-o-1,
+  "dark-o-2": $black-o-2,
+  "dark-o-3": $black-o-3,
+  "dark-o-4": $black-o-4,
+  "dark-o-5": $black-o-5,
+
+  "primary-o-1": $blue-o-1,
+  "primary-o-2": $blue-o-2,
+  "primary-o-3": $blue-o-3,
+  "primary-o-4": $blue-o-4,
+  "primary-o-5": $blue-o-5,
+
+  "success-o-1": $green-o-1,
+  "success-o-2": $green-o-2,
+  "success-o-3": $green-o-3,
+  "success-o-4": $green-o-4,
+  "success-o-5": $green-o-5,
+
+  "info-o-1": $cyan-o-1,
+  "info-o-2": $cyan-o-2,
+  "info-o-3": $cyan-o-3,
+  "info-o-4": $cyan-o-4,
+  "info-o-5": $cyan-o-5,
+
+);
+
+// $custom-text-colors: (
+//   "neon": $orange-500,
+// );
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+// $text-colors: map-merge($utilities-text-colors, $custom-text-colors);
+
+/****** Utilities create Background Color ******/
+$utilities: map-merge($utilities, (
+  "background-color": (
+      property: background-color,
+      class: bg,
+      local-vars: ("bg-opacity": 1),
+      values: map-merge($theme-colors, ("transparent": transparent))
+    )
+  )
+);
+
+// /****** Utilities create Text Color ******/
+$utilities: map-merge($utilities, (
+  "color": (
+    property: color,
+    class: text,
+    local-vars: (
+      "text-opacity": 1
+    ),
+    values: map-merge($utilities-text-colors ,(
+        "pink-500": $pink-500,
+        "indigo-500": $indigo-500,
+        "orange-700": $orange-700,
+        "reset": inherit,
+      )
+    )
+  )
+));
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/tables";
+
+// Helper
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-y: scroll;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    text-decoration: dashed;
+  }
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+
+// Bootstrap Icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+/* Style imports */
+@import './components/Header/Header.styles.scss';
+@import './components/PCPart/PCPart.styles.scss';
+@import './components/QuantityInput/QuantityInput.styles.scss';
+@import './components/SelectPartModal/SelectPartModal.styles.scss';
+@import './components/BackgroundFixed/BackgroundFixed.styles.scss';
+@import './components/Sidebar/Sidebar.styles.scss';
+@import './components/ThemeSidebar/ThemeSidebar.styles.scss';
+
+// Themes
+@import './themes/glass.theme.scss';
+@import './themes/dark.theme.scss';
+@import './themes/purecss.animation.scss';
+
+// Custom self utilities
+@import './themes/self-utilities.scss';

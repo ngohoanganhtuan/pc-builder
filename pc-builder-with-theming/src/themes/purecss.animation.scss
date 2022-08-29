@@ -1,0 +1,31 @@
+.text-blink-animation,
+.hover-text-blink-animation:hover {
+  animation: blink-animation 0.5s linear infinite;
+}
+
+.hover-spin-animation:hover {
+  animation: spin 0.8s linear;
+}
+
+@keyframes blink-animation {
+  0% {
+    color: $white;
+  }
+
+  50% {
+    color: $yellow-400;
+  }
+
+  100% {
+    color: $yellow-700;
+  }
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}

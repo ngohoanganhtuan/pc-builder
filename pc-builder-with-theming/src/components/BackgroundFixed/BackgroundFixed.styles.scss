@@ -1,0 +1,36 @@
+@mixin bg-mark {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $indigo-800;
+  opacity: 0.5;
+}
+
+.bg-fixed {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-mark-dark {
+  &::after {
+    @include bg-mark;
+    background: $indigo-800;
+    background: linear-gradient(320deg,$blue-900 0%, $purple-700 50%, $purple-900 100%);
+  }
+}
+
+.bg-mark-light {
+  &::after {
+    @include bg-mark;
+    background: $indigo-100;
+    background: linear-gradient(320deg, $pink-300 0%, $purple-400 50%, $indigo-300 100%);
+  }
+}

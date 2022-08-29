@@ -1,0 +1,38 @@
+/**
+ * @desc Brand names
+ * @enum { BRAND_NAMES }
+ */
+export enum BRAND_NAMES {
+  INTEL = 'Intel',
+  AMD = 'AMD',
+  MSI = 'MSI',
+  ASUS = 'ASUS',
+  GALAX = 'Galax',
+  GIGABYTE = 'Gigabyte',
+  ASROCK = 'ASRock',
+  ADATA = 'Adata',
+  CORSAIR = 'Corsair',
+  KINGSTON = 'Kingston',
+  SAMSUNG = 'Samsung',
+  KLEVV = 'KLEVV',
+  GSKILL = 'GSKILL',
+  SEAGATE = 'Seagate',
+  WESTERN_DIGITAL = 'Western Digital',
+  LEXAR = 'Lexar',
+  TOSHIBA = 'Toshiba',
+  COOLER_MASTER = 'Cooler Master',
+  FSP = 'FSP',
+  XIGMATEK = 'Xigmatek',
+  ZOTAC = 'Zotac',
+  INNO3D = 'Inno3d',
+  COLORFUL = 'Colorful',
+  SAMA = 'Sama',
+  NZXT = 'NZXT',
+  AKKO = 'Akko',
+  DAREU = 'Dareu',
+  E_DRA = 'E-DRA',
+  RAZER = 'Razer',
+  ALIENWARE = 'Alienware',
+  LOGITECH = 'Logitech',
+  STEELSERIES = 'Steelseries',
+}

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [QuantityInput] component Component [QuantityInput] render correctly 1`] = `
+<div
+  className="quantity-input d-flex input-group-md shadow rounded-pill overflow-hidden quantity-input-md"
+>
+  <button
+    className="btn bg-white shadow-none"
+    data-testid="decrease-quantity-button"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="bi bi-dash"
+    />
+  </button>
+  <div
+    className="number bg-white d-flex align-items-center w-100 justify-content-center"
+  >
+    500
+  </div>
+  <button
+    className="btn bg-white shadow-none"
+    data-testid="increase-quantity-button"
+    onClick={[MockFunction]}
+  >
+    <i
+      className="bi bi-plus"
+    />
+  </button>
+</div>
+`;

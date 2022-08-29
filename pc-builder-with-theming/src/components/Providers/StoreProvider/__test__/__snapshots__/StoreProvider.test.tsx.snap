@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [StoreProvider] component Component [StoreProvider] should render correctly 1`] = `
+<h1>
+  React Children
+</h1>
+`;

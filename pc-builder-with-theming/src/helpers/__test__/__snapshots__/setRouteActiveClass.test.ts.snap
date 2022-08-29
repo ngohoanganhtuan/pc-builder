@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [setRouteActiveClass] helper Helper [setRouteActiveClass] default class name should match snapshot when active 1`] = `"nav-link text-dark d-flex flex-row align-items-center text-decoration-none gap-1 border rounded d-flex flex-row p-2 bg-warning border-0"`;
+
+exports[`Test [setRouteActiveClass] helper Helper [setRouteActiveClass] default class name should match snapshot when not active 1`] = `"nav-link text-dark d-flex flex-row align-items-center text-decoration-none gap-1 border rounded d-flex flex-row p-2 bg-white"`;

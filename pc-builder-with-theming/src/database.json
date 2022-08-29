@@ -1,0 +1,308 @@
+{
+  "pcParts": [
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35710/techzones-amd-ryzen-7-5600x-6c12t-32mb-cache-37ghz-up-to-46ghz.jpg",
+      "name": "AMD Ryzen 7 5600X - 6C/12T 32MB Cache 3.7GHz Up to 4.6GHz",
+      "price": 7600000,
+      "type": "Processor (CPU)",
+      "brandName": "AMD",
+      "id": 1
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35709/techzones-amd-ryzen-5-5500-6c12t-16mb-cache-36-ghz-up-to-42-ghz.jpg",
+      "name": "AMD Ryzen 5 5600 - 6C/12T 32MB Cache 3.5 GHz Up to 4.4 GHz",
+      "price": 5100000,
+      "type": "Processor (CPU)",
+      "brandName": "AMD",
+      "id": 2
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35707/techzones-amd-ryzen-5-5500-6c12t-16mb-cache-36-ghz-up-to-42-ghz.jpg",
+      "name": "AMD Ryzen 5 5500 - 6C/12T 16MB Cache 3.6 GHz Up to 4.2 GHz",
+      "price": 4100000,
+      "type": "Processor (CPU)",
+      "brandName": "AMD",
+      "id": 3
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35706/techzones-amd-ryzen-5-4500mpk-6c12t-8mb-cache-36-ghz-up-to-41-ghz-1.jpg",
+      "name": "AMD Ryzen 5 4500MPK - 6C/12T 8MB Cache 3.6 GHz Up to 4.1 GHz",
+      "price": 4100000,
+      "type": "Processor (CPU)",
+      "brandName": "AMD",
+      "id": 4
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35705/techzones-amd-ryzen-3-4100mpk-4c8t-4mb-cache-38-ghz-up-to-40-ghz-1.jpg",
+      "name": "AMD Ryzen 3 4100MPK - 4C/8T 4MB Cache 3.8 GHz Up to 4.0 GHz",
+      "price": 2600000,
+      "type": "Processor (CPU)",
+      "brandName": "AMD",
+      "id": 5
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33576/techzones-intel-core-i9-12900f.jpg",
+      "name": "Intel Core i9-12900F",
+      "price": 14500000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 6
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33573/techzones-intel-core-i5-12600.jpg",
+      "name": "Intel Core i5-12500 - 6C/12T 18MB Cache Up to 4.60 GHz",
+      "price": 6550000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 7
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33574/techzones-intel-core-i5-12600.jpg",
+      "name": "Intel Core i5-12400 - 6C/12T 18MB Cache Up to 4.40 GHz",
+      "price": 6250000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 8
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33575/techzones-intel-core-i5-12600.jpg",
+      "name": "Intel Core i5-12400F - 6C/12T 18MB Cache Up to 4.40 GHz",
+      "price": 5400000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 9
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33571/techzones-intel-core-i3-12100f.jpg",
+      "name": "Intel Core i3-12100F - 4C/8T 12MB Cache 3.30GHz Up to 4.30GHz",
+      "price": 2890000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 10
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33571/techzones-intel-core-i3-12100f.jpg",
+      "name": "Intel Core i3-2100 - 4C/8T 12MB Cache 3.30GHz Up to 4.30GHz",
+      "price": 2890000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 11
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33571/techzones-intel-core-i3-12100f.jpg",
+      "name": "Intel G860 - 4C/8T 12MB Cache 3.30GHz Up to 4.30GHz",
+      "price": 2890000,
+      "type": "Processor (CPU)",
+      "brandName": "Intel",
+      "id": 12
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36322/techzones-gigabyte-z690i-aorus-ultra.jpg",
+      "name": "GIGABYTE Z690I AORUS Ultra",
+      "price": 8650000,
+      "type": "Mainboard",
+      "brandName": "Gigabyte",
+      "id": 13
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36312/techzones-gigabyte-b660i-aorus-pro-ddr4-1.jpg",
+      "name": "GIGABYTE B660I AORUS Pro DDR4",
+      "price": 5850000,
+      "type": "Mainboard",
+      "brandName": "Gigabyte",
+      "id": 14
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36136/techzones-asrock-z690-pro-rs-5.jpg",
+      "name": "ASRock Z690 Pro RS",
+      "price": 5590000,
+      "type": "Mainboard",
+      "brandName": "ASRock",
+      "id": 15
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35690/techzones-msi-pro-z690-a-wf-ddr4-3.jpg",
+      "name": "MSI PRO Z690-A WF DDR4",
+      "price": 6618000,
+      "type": "Mainboard",
+      "brandName": "MSI",
+      "id": 16
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36214/techzones-asus-tuf-gaming-radeon-rx-6500-xt-oc-edition-4gb-gddr6-7.jpg",
+      "name": "ASUS TUF Gaming Radeon RX 6500 XT OC Edition 4GB GDDR6",
+      "price": 7210000,
+      "type": "Graphic Card (GPU)",
+      "brandName": "ASUS",
+      "id": 17
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36214/techzones-asus-tuf-gaming-radeon-rx-6500-xt-oc-edition-4gb-gddr6-7.jpg",
+      "name": "Colorful GeForce GTX 1650 NB 4GD6-V",
+      "price": 6900000,
+      "type": "Graphic Card (GPU)",
+      "brandName": "Colorful",
+      "id": 18
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36206/techzones-asus-tuf-gaming-geforce-rtx-3050-8gb-gddr6.jpg",
+      "name": "ASUS TUF Gaming GeForce RTX 3050 8GB GDDR6",
+      "price": 10560000,
+      "type": "Graphic Card (GPU)",
+      "brandName": "ASUS",
+      "id": 19
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/34081/techzones-galax-geforce-rtx-3070-1-click-oc-v2-lhr.png",
+      "name": "GALAX GeForce RTX 3070 (1-Click OC) V2 LHR",
+      "price": 23480000,
+      "type": "Graphic Card (GPU)",
+      "brandName": "Galax",
+      "id": 20
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35669/techzones-msi-geforce-rtx-3090-ti-black-trio-24g-1.jpg",
+      "name": "MSI GeForce RTX 3090 Ti BLACK TRIO 24G",
+      "price": 61990000,
+      "type": "Graphic Card (GPU)",
+      "brandName": "MSI",
+      "id": 21
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36134/techzones-corsair-vengeance-rgb-rs-64gb-2x-32gb-ddr4-3600mhz-c18-2.png",
+      "name": "Corsair Vengeance RGB RS 32GB (2x 16GB) DDR4 3200MHz C16",
+      "price": 4890000,
+      "type": "Memory (RAM)",
+      "brandName": "Corsair",
+      "id": 22
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36259/techzones-kingston-fury-16gb3200mhz-ddr4-cl16dimm-kit-of-2furyrenegadergb-1.jpg",
+      "name": "Kingston Fury 32GB 3200MHz DDR4 CL16 DIMM (Kit of 2) FURY Renegade RGB",
+      "price": 4860000,
+      "type": "Memory (RAM)",
+      "brandName": "Kingston",
+      "id": 23
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35739/techzones-adata-su670-sata-250gb.png",
+      "name": "Adata SU670 SATA - 250GB",
+      "price": 819000,
+      "type": "Solid State Drive (SSD)",
+      "brandName": "Adata",
+      "id": 24
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33689/techzones-klevv-cras-c720-m2-2280-1.png",
+      "name": "KLEVV Cras C720 M.2 2280 - 256GB",
+      "price": 1169000,
+      "type": "Solid State Drive (SSD)",
+      "brandName": "KLEVV",
+      "id": 25
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/24069/techzones-wd-caviar-blue-2tb-5400rpm-256mb-cache-2.jpg",
+      "name": "WD Caviar Blue 2TB - 5400rpm 256MB Cache",
+      "price": 1550000,
+      "type": "Hard Disk Drive (HDD)",
+      "brandName": "Western Digital",
+      "id": 26
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/18561/techzones-sama-3601.jpg",
+      "name": "Sama 3601",
+      "price": 1199000,
+      "type": "Case",
+      "brandName": "Sama",
+      "id": 27
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/29612/techzones-cooler-master-masterbox-k501l-argb.png",
+      "name": "Cooler Master MasterBox K501L ARGB",
+      "price": 1550000,
+      "type": "Case",
+      "brandName": "Cooler Master",
+      "id": 28
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/27470/techzones-xigmatek-z-power.png",
+      "name": "XIGMATEK Z-Power 400",
+      "price": 549000,
+      "type": "Power Suply (PSU)",
+      "brandName": "Xigmatek",
+      "id": 29
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/25890/techzones-corsair-cx-series-rgb.png",
+      "name": "Corsair CX550F RGB Black",
+      "price": 2260000,
+      "type": "Power Suply (PSU)",
+      "brandName": "Corsair",
+      "id": 30
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35222/techzones-dareu-em901x-rgb-fast-charging-dock-superlight-pink.jpg",
+      "name": "DareU EM901X RGB Fast Charging Dock Superlight - Pink",
+      "price": 888000,
+      "type": "Mouse",
+      "brandName": "Dareu",
+      "id": 31
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35261/techzones-razer-basilisk-v3-2.jpg",
+      "name": "Razer Basilisk V3",
+      "price": 1890000,
+      "type": "Mouse",
+      "brandName": "Razer",
+      "id": 32
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/34064/techzones-mojike-gk1-black-pink-akko-orange-v2.jpg",
+      "name": "Mojike GK1 Black Pink - AKKO Orange v2",
+      "price": 890000,
+      "type": "Keyboard",
+      "brandName": "Akko",
+      "id": 33
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/35870/techzones-dell-alienware-rgb-mechanical-aw410k.jpg",
+      "name": "Dell Alienware RGB Mechanical - AW410K",
+      "price": 4990000,
+      "type": "Keyboard",
+      "brandName": "Alienware",
+      "id": 34
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/36327/techzones-gigabyte-m34wq-gaming-monitor.jpg",
+      "name": "Gigabyte M34WQ Gaming Monitor",
+      "price": 15300000,
+      "type": "Monitor",
+      "brandName": "Gigabyte",
+      "id": 35
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/24773/techzones-samsung-odyssey-g7-gaming-monitor.jpg",
+      "name": "SamSung Odyssey G7 Gaming - 27in cong 1000R 240Hz",
+      "price": 15490000,
+      "type": "Monitor",
+      "brandName": "Samsung",
+      "id": 36
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/32456/techzones-tai-nghe-gaming-co-day-logitech-g335-trang-3.jpg",
+      "name": "Tai nghe gaming có dây Logitech G335 - Trắng",
+      "price": 1699000,
+      "type": "Headset",
+      "brandName": "Logitech",
+      "id": 37
+    },
+    {
+      "thumbnail": "https://cdn.techzones.vn/Data/Sites/1/Product/33687/techzones-steelseries-arctis-7p-white-for-ps5-1.jpg",
+      "name": "SteelSeries Arctis 7P+ White for PS5",
+      "price": 4999000,
+      "type": "Headset",
+      "brandName": "Logitech",
+      "id": 38
+    }
+  ]
+}

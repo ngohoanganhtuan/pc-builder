@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test [PCPart] component Selected variant of Component [PCPart] should render correctly 1`] = `
+<div
+  className="shadow d-grid pc-part"
+>
+  <div
+    className="p-1"
+  >
+    <img
+      className="border rounded-circle pc-part-thumbnail"
+      data-testid="pc-part-thumbnail"
+      height="100%"
+      src="PC Part Thumbnail"
+      width="100%"
+    />
+  </div>
+  <div
+    className="p-3 d-flex flex-column align-items-start justify-content-between"
+  >
+    <a
+      className="name card-title fs-6 text-dark fw-bold"
+      href="/detail/undefined"
+      onClick={[Function]}
+    >
+      PC Part Name
+    </a>
+    <div
+      className="quantity-input d-flex input-group-sm shadow rounded-pill overflow-hidden quantity-input-sm"
+    >
+      <button
+        className="btn bg-white shadow-none"
+        data-testid="decrease-quantity-button"
+        onClick={[Function]}
+      >
+        <i
+          className="bi bi-dash"
+        />
+      </button>
+      <div
+        className="number bg-white d-flex align-items-center w-100 justify-content-center"
+      >
+        500
+      </div>
+      <button
+        className="btn bg-white shadow-none"
+        data-testid="increase-quantity-button"
+        onClick={[Function]}
+      >
+        <i
+          className="bi bi-plus"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="p-3 d-flex flex-column align-items-end justify-content-between"
+  >
+    <p
+      className="fs-6 price"
+    >
+      1.000.000 ₫
+    </p>
+    <button
+      className="btn btn-sm btn-danger shadow"
+      data-testid="pc-part-remove-button"
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Test [PCPart] component Unselected variant of Component [PCPart] should render correctly 1`] = `
+<div
+  className="shadow d-grid pc-part"
+>
+  <div
+    className="p-1"
+  >
+    <img
+      className="border rounded-circle pc-part-thumbnail"
+      data-testid="pc-part-thumbnail"
+      height="100%"
+      src="PC Part Thumbnail"
+      width="100%"
+    />
+  </div>
+  <div
+    className="p-3 d-flex flex-column align-items-start justify-content-between"
+  >
+    <a
+      className="name card-title fs-6 text-dark fw-bold"
+      href="/detail/undefined"
+      onClick={[Function]}
+    >
+      PC Part Name
+    </a>
+  </div>
+  <div
+    className="p-3 d-flex flex-column align-items-end justify-content-between"
+  >
+    <p
+      className="fs-6 price"
+    >
+      1.000.000 ₫
+    </p>
+    <button
+      className="btn btn-sm btn-success shadow"
+      data-testid="pc-part-select-button"
+    >
+      Select
+    </button>
+  </div>
+</div>
+`;

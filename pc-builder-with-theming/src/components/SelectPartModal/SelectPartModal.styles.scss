@@ -1,0 +1,25 @@
+.select-part-modal {
+  opacity: 1;
+  transition: 1s;
+
+  .pc-parts-list {
+    overflow-y: scroll;
+    height: 85vh;
+  }
+
+  .btn.btn-danger {
+    z-index: 1;
+    top: -20px;
+    right: -20px;
+  }
+
+  .modal-content {
+    overflow: unset;
+  }
+
+  .fade-scale {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+}
